@@ -1,5 +1,5 @@
 ---
-title: Kumar Pallav
+title: Madhava Reddy Vempalli Mugenna Gari
 ---
 {% assign personalData = site.data.personal[0] %}
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ title: Kumar Pallav
             <a href="{{ personalData.linkedin }}" class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
             <a href="{{ personalData.facebook }}" class="icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="{{ personalData.github }}" class="icon"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-            <!--a href="kumarpallav_resume.pdf" class="icon" download><i class="fa fa-download" aria-hidden="true"></i></a-->
+            <!--a href="Madhava_Reddy_Vempalli_Mugenna_Gari_Resume.pdf" class="icon" download><i class="fa fa-download" aria-hidden="true"></i></a-->
           </p>
         </div>
 
@@ -50,10 +50,6 @@ title: Kumar Pallav
             <ul style="margin-top: 0.2em; list-style-type: circle;">
               {% for detail in experience.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
-                <span class="heading is-marginless">
-                  {{ detail.title }}
-                  <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.languages }}</span>
-                </span>
                 {{ detail.description }}
               </li>
               {% endfor %}
@@ -68,7 +64,15 @@ title: Kumar Pallav
               {{ project.title }}
               <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ project.languages }}</span>
             </p>
-            <p style="font-size: 0.8rem">{{ project.description }}</p>
+          
+            <ul style="margin-top: 0.2em; list-style-type: circle;">
+              {% for points in project.description %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
+                {{ points.point }}
+              </li>
+              {% endfor %}
+            </ul>
+
           {% endfor %}
         </div>
 
@@ -92,10 +96,10 @@ title: Kumar Pallav
         <footer class="footer" style="background: inherit;">
           <div class="content has-text-centered">
             <p>
-              <a class="icon" href="https://github.com/pforpallav/pforpallav.github.io">
+              <a class="icon" href="https://github.com/VMMadhavaReddy/MadhavaReddyVM.github.io">
                 <i class="fa fa-github"></i>
               </a>
-              <a href="kumarpallav_resume.pdf" class="icon" download>
+              <a href="Madhava_Reddy_Vempalli_Mugenna_Gari_Resume.pdf" class="icon" download>
                 <i class="fa fa-download" aria-hidden="true"> 
               </i></a>
             </p>
