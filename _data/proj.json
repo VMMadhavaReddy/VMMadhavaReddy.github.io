@@ -1,22 +1,32 @@
 [
     {
-        "title": "Course Allotment Simulation using SAT Solver",
-        "description": "As part of Bachelors project, worked on solving the real world problem of finding a best course allocation under various constraints as a SAT (Satisfiability) problem and infer effects of different policies on course allotment and choices. Studied relative efficiency of various heuristics modeled on different solvers like MiniSAT and Glucose.",
-        "languages": "C++ MiniSAT Glucose"
+        "title": "Overlapping Community Detection",
+        "description": [
+				{
+					"point": "General community detection algorithms for a complex network often yields disjoin communities, but in reality communities are overlapping, we tried to detect these communities in this project"
+				},
+				{
+					"point": "We mainly used flow based tolerance rough set theory to determine overlapping communities with a Multi Objective Community detection fitness function"
+				}
+			]
     },
     {
-        "title": "IIT Bombay Hospital Digitization",
-        "description": "Created a complete web application in Java that could handle operations on relational MySQL databases to handle various processes of the university hospital.",
-        "languages": "Java MySQL"
+        "title": "Supermarket Management",
+        "description": [
+				{
+					"point": "Created a management website using spring MVC for general retail shops, where we can track and manage the details of stocks brand, invoice, expenses, employees, customers details, discounts using DBMS"
+				}
+			]
     },
     {
-        "title": "Simple 2D Physics Engine",
-        "description": "Wrote a physics engine for simple round bodies providing a back-end that could generate coordinates in real-time with collision, gravity, restitution and custom resolution of time.",
-        "languages": "C++"
-    },
-    {
-        "title": "Social Sea",
-        "description": "Create a lightweight social search engine that shows the results ranked (using page-ranking) according to one's peer-group search history and rating.",
-        "languages": "PHP HTML javascript"
+        "title": "Breast Cancer Classification",
+        "description": [
+				{
+					"point": "Used various Machine Learning Techniques on standard BreakHis Dataset and optimized the hyperparameters to yield effective and accurate output"
+				},
+				{
+					"point": "designed a web application which takes a biopsy image as input and returns Malignant or Benign using various Feature Extraction Techniques"
+				}
+                       ]
     }
 ]
