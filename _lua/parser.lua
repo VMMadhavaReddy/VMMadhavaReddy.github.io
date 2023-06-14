@@ -34,7 +34,6 @@ function printExpItems(file)
       tex.print("\\resumeItem")
       tex.print("{" .. value["title"] .. "}")
       tex.print("{" .. value["description"] .. "}")
-      tex.print("{" .. value["languages"] .. "}")
     end
     tex.print("\\resumeItemListEnd")
   end
@@ -45,8 +44,13 @@ function printProjItems(file)
   for key, value in pairs(json) do
     tex.print("\\resumeSubItem")
     tex.print("{" .. value["title"] .. "}")
-    tex.print("{" .. value["description"] .. "}")
-    tex.print("{" .. value["languages"] .. "}")
+    
+    tex.print("\\resumeItemListStart")
+    for key, value in pairs(value["description"]) do
+      tex.print("\\resumeSubItemPoint")
+      tex.print("{" .. value["point"] .. "}")
+    end
+    tex.print("\\resumeItemListEnd")
   end
 end
 
