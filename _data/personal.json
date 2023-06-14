@@ -1,39 +1,42 @@
 [
     {
-        "name": "Kumar Pallav",
-        "website": "http://kumarpallav.com",
-        "email": "me@kumarpallav.com",
-        "email2": "pforpallav@gmail.com",
-        "phone": "+1-xxx-xxx-xxxx",
-        "linkedin":"https://www.linkedin.com/in/kumar-pallav-156a1657/",
-        "facebook":"https://www.facebook.com/pforpallav",
-        "github":"https://github.com/pforpallav",
+        "name": "Madhava Reddy Vempalli Mugenna Gari",
+        "website": "https://MadhavaReddyVM.github.io",
+        "email": "vempalli.mgmreddy.cse17@iitbhu.ac.in",
+        "email2": "madhavareddy@asu.edu",
+        "phone": "+919182626873",
+        "linkedin":"https://www.linkedin.com/in/vmmadhava/",
+        "facebook":"https://www.facebook.com/madhava.reddy.9638",
+        "github":"https://github.com/VMMadhavaReddy",
         "languages": [
-            {
-                "language": "C++"
-            },
-            {
-                "language": "C\\#"
-            },
-            {
-                "language": "JavaScript"
-            },
             {
                 "language": "Java"
             },
             {
-                "language": "C"
+                "language": "C/C++"
+            },
+            {
+                "language": "Python"
             }
         ],
         "technologies": [
             {
-                "technology": "NodeJs"
+                "technology": "Springboot"
             },
             {
-                "technology": "UWP"
+                "technology": "Git"
             },
             {
-                "technology": "Win32"
+                "technology": "MySQL"
+            },
+            {
+                "technology": "Django"
+            },
+            {
+                "technology": "OpenCV"
+            },
+            {
+                "technology": "Sklearn"
             }
         ]
     }
