@@ -51,9 +51,9 @@
 % Custom commands
 %-------------------------------------------
 \definecolor{light-gray}{gray}{0.3}
-\newcommand{\resumeItem}[3]{
+\newcommand{\resumeItem}[2]{
   \item{
-    \textbf{#1} \ifthenelse{\equal{#3}{}}{}{\textcolor{light-gray}{\scriptsize\texttt{#3}}} {: \small #2 \vspace{-2pt}}
+    \textbf{#1} { \small #2 \vspace{-2pt}}
   }
 }
 
@@ -73,7 +73,11 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\resumeSubItem}[3]{\resumeItem{#1}{#2}{#3}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[1]{\item{\textbf{#1}}\vspace{-2pt}}
+
+\newcommand{\resumeSubItemPoint}[1]{
+\item{ {\small #1 \vspace{-2pt}}}
+}
 
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -110,7 +114,7 @@ require("_lua/parser.lua")
 
 % Print Projects
 %-------------------------------------------
-\section{\href{https://github.com/pforpallav}{Projects}}
+\section{\href{https://github.com/MadhavaReddyVM.github.io}{Projects}}
   \resumeSubHeadingListStart
     \directlua{printProjItems("_data/proj.json")}
   \resumeSubHeadingListEnd
