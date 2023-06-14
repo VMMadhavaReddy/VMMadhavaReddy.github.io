@@ -1,4 +1,4 @@
-# MadhavaReddyVM.github.io
+# VMMadhavaReddy.github.io
 
 [![overleaf template](https://img.shields.io/badge/overleaf--template-use-green.svg?style=flat)](https://www.overleaf.com/read/qjzfghmxhbpx)
 
