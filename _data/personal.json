@@ -17,6 +17,9 @@
             },
             {
                 "language": "Python"
+            },
+            {
+                "language": "MySQL"
             }
         ],
         "technologies": [
@@ -27,7 +30,7 @@
                 "technology": "Git"
             },
             {
-                "technology": "MySQL"
+                "technology": "Python socket"
             },
             {
                 "technology": "Django"
@@ -37,6 +40,24 @@
             },
             {
                 "technology": "Sklearn"
+            },
+            {
+                "technology": "Maven"
+            },
+            {
+                "technology": "Pip"
+            },
+            {
+                "technology": "Linux"
+            },
+            {
+                "technology": "NetBeans"
+            },
+            {
+                "technology": "Postman"
+            },
+            {
+                "technology": "DBeaver"
             }
         ]
     }
