@@ -8,19 +8,19 @@
         "details": [
             {
                 "title":"",
-                "description": "Developed real time operations functionality and API development that increased the systems overall scope and data statistical analysis"
+                "description": "Developed real-time operations functionality and API development involving warehouse management, expanding the system's overall scope and allowing for more comprehensive data statistical analysis"
             },
             {
                 "title":"",
-                "description": "performed RCA's for the discrepancies of the system and fixing core issues which reduced customer's issues by 50 percent"
+                "description": "Executed RCAs for discrepancies in underlying system and fixed core issues, cutting the number of operational difficulties with a warehouse in half"
             },
             {
                 "title":"",
-                "description": "Interacted with various teams to get to know the scope of development and implemented it accordingly by guiding relevant teams to align with current development"
+                "description": "Interacted with different teams to understand the precise scope of development from front-end to back-end and implemented it accordingly by guiding relevant teams to align with current development"
             },
             {
                 "title":"",
-                "description": "Worked extensively with Spring boot framework and MySQL"
+                "description": "Achieved mastery over Spring Boot framework and MySQL while working on developing warehouse systems"
             }
         ]
     },
@@ -33,11 +33,11 @@
         "details": [
             {
                 "title": "",
-                "description": "Worked on transformer-based pre-trained models for dense captioning videos"
+                "description": "Conducted dense captioning on videos with transformer-based models known for superior learning capabilities"
             },
             {
                 "title": "",
-                "description": "Used a bi-modal-transformer pretrained model, which takes both audio and videos as features from sample videos for dense captioning of respective events in videos"
+                "description": "Produced high-quality captions from respective events in videos by employing a pre-trained bi-modal transformer model that takes both audio and videos as features from sample videos for dense captioning in videos"
             }
         ]
     }
