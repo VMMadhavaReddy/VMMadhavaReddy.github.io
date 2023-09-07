@@ -3,10 +3,10 @@
         "title": "Overlapping Community Detection",
         "description": [
 				{
-					"point": "General community detection algorithms for a complex network often yields disjoin communities, but in reality communities are overlapping, we tried to detect these communities in this project"
+					"point": "Geared toward detecting communities in complex networks that are overlapping, like in any social media network, instead of yielding disjoint sets of communities like general algorithms"
 				},
 				{
-					"point": "We mainly used flow based tolerance rough set theory to determine overlapping communities with a Multi Objective Community detection fitness function"
+					"point": "By employing flow-based tolerance rough set theory to determine features of each node with a Multi-Objective Community detection fitness function, overlapping community detection became a success with a novel approach"
 				}
 			]
     },
@@ -14,7 +14,7 @@
         "title": "Supermarket Management",
         "description": [
 				{
-					"point": "Created a management website using spring MVC for general retail shops, where we can track and manage the details of stocks brand, invoice, expenses, employees, customers details, discounts using DBMS"
+					"point": "Designed and developed a management website utilizing spring MVC for general retail shops, where we can track and manage the details of stock brands, invoices, expenses, employees, customer details, and discounts using DBMS"
 				}
 			]
     },
@@ -22,10 +22,10 @@
         "title": "Breast Cancer Classification",
         "description": [
 				{
-					"point": "Used various Machine Learning Techniques on standard BreakHis Dataset and optimized the hyperparameters to yield effective and accurate output"
+					"point": "To detect breast cancer by using biopsy images provided by the standard dataset, used various feature extraction techniques on the available training set, resulting in an excellent 85 percent accuracy upon tuning hyperparameters, providing diagnosis for patients in real-time"
 				},
 				{
-					"point": "designed a web application which takes a biopsy image as input and returns Malignant or Benign using various Feature Extraction Techniques"
+					"point": "For accessibility, designed a Django web application to takes a biopsy image as input and return Malignant or Benign with our trained model"
 				}
                        ]
     }
