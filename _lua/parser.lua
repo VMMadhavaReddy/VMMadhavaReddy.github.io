@@ -44,13 +44,44 @@ function printProjItems(file)
   for key, value in pairs(json) do
     tex.print("\\resumeSubItem")
     tex.print("{" .. value["title"] .. "}")
-    
+
     tex.print("\\resumeItemListStart")
     for key, value in pairs(value["description"]) do
       tex.print("\\resumeSubItemPoint")
-      tex.print("{" .. value["point"] .. "}")
+      tex.print("{" .. value["point"] ..
+      "}")
     end
     tex.print("\\resumeItemListEnd")
+   
+  end
+end
+
+function printCustomHeading(file)
+  local json = getJsonFromFile(file)
+  for key, value in pairs(json) do
+    tex.print("\\vspace{-7pt}")
+    tex.print("\\begin{center}")
+
+    tex.print("\\textbf{\\href")
+    tex.print("{" .. value["website"] .. "}")
+    tex.print("{\\Huge  " .. value["name"] .. "}} \\\\ ")
+    
+    tex.print("\\vspace{8pt} \\small")
+    tex.print(" \\faicon{phone}")
+    tex.print("" .. value["phone"] .. "\\  $  $ ")
+
+    
+    tex.print(" \\faicon{envelope}")
+    tex.print(" \\href")
+    tex.print("{" .. value["email"] .. "}")
+    tex.print("{" .. value["email"] .. "}  $  $ ")
+
+    tex.print(" \\faicon{linkedin}")
+    tex.print("\\href")
+    tex.print("{" .. value["linkedin"] .. "}")
+    tex.print("{" .. value["linkedin1"] .. "}  $  $ ")
+
+    tex.print("\\end{center}")
   end
 end
 
@@ -62,14 +93,14 @@ function printHeading(file)
     tex.print("\\textbf{\\href")
     tex.print("{" .. value["website"] .. "/}")
     tex.print("{\\Large " .. value["name"] .. "}}")
-    tex.print(" & Email: \\href")
+    tex.print(" & Email : \\href")
     tex.print("{mailto:" .. value["email"] .. "}")
     tex.print("{" .. value["email"] .. "}\\\\")
 
     tex.print("\\href")
     tex.print("{" .. value["website"] .. "/}")
     tex.print("{" .. value["website"] .. "}")
-    tex.print(" & Phone: " .. value["phone"] .. "\\\\")
+    tex.print(" & Mobile : " .. value["phone"] .. "\\\\")
 
     tex.print("\\end{tabular*}")
   end
