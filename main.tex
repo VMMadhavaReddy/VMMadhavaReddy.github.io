@@ -1,11 +1,13 @@
 %-------------------------------------------
 % Resume in LuaLatex
-% Author: Kumar Pallav
+% Editor: Madhava Reddy
 % (Works with Overleaf)
 %-------------------------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
+\usepackage{fontspec}
+\usepackage{fontawesome}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -14,14 +16,11 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
-
-\usepackage[T1]{fontenc}
-\usepackage{Alegreya} %% Option 'black' gives heavier bold face 
-\renewcommand*\oldstylenums[1]{{\AlegreyaOsF #1}}
-
+\usepackage[urw-garamond]{mathdesign}
 \RequirePackage{luatex85}
 \usepackage{pdfcomment}
 \usepackage{luacode}
+
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -50,10 +49,9 @@
 
 % Custom commands
 %-------------------------------------------
-\definecolor{light-gray}{gray}{0.3}
 \newcommand{\resumeItem}[2]{
   \item{
-    \textbf{#1} { \small #2 \vspace{-2pt}}
+    \textbf{#1}{ #2 \vspace{-2pt}}
   }
 }
 
@@ -61,7 +59,7 @@
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small\textcolor{light-gray}{#3}} & \textit{\small\textcolor{light-gray}{#4}} \\
+      \textit{#3} & \textit{#4} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -69,15 +67,14 @@
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small\textcolor{light-gray}{#3 $\cdot$ #4}} & \textit{\small\textcolor{light-gray}{#5}} \\
+      \textit{#3 $\cdot$ #4} & \textit{#5} \\
     \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\item{\textbf{#1}}\vspace{-2pt}}
 
 \newcommand{\resumeSubItemPoint}[1]{
-\item{ {\small #1 \vspace{-2pt}}}
-}
+\item{{#1}}\vspace{-2pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -91,12 +88,12 @@
 % Load lua script
 %-------------------------------------------
 \begin{luacode}
-require("_lua/parser.lua")
+require("lua/parser.lua")
 \end{luacode}
 
 % Print Heading
 %-------------------------------------------
-\directlua{printHeading("_data/personal.json")}
+\directlua{printCustomHeading("_data/personal.json")}
 
 % Print Education
 %-------------------------------------------
@@ -114,7 +111,7 @@ require("_lua/parser.lua")
 
 % Print Projects
 %-------------------------------------------
-\section{\href{https://github.com/VMMadhavaReddy}{Projects}}
+\section{\href{https://github.com/VMMadhavaReddy/}{Projects}}
   \resumeSubHeadingListStart
     \directlua{printProjItems("_data/proj.json")}
   \resumeSubHeadingListEnd
