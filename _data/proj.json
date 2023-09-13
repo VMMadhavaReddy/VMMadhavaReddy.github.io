@@ -3,10 +3,10 @@
         "title": "Overlapping Community Detection",
         "description": [
 				{
-					"point": "Geared toward detecting communities in complex networks that are overlapping, like in any social media network, instead of yielding disjoint sets of communities like general algorithms"
+					"point": "Geared toward detecting communities in complex networks that are overlapping, like in any social media network, instead of yielding disjoint sets of communities typical of general algorithms"
 				},
 				{
-					"point": "By employing flow-based tolerance rough set theory to determine features of each node with a Multi-Objective Community detection fitness function, overlapping community detection became a success with a novel approach"
+					"point": "Leveraged flow-based tolerance rough set theory to determine features of each node with a Multi-Objective Community detection fitness function for a novel overlapping community detection"
 				}
 			]
     },
@@ -14,7 +14,7 @@
         "title": "Supermarket Management",
         "description": [
 				{
-					"point": "Designed and developed a management website utilizing spring MVC for general retail shops, where we can track and manage the details of stock brands, invoices, expenses, employees, customer details, and discounts using DBMS"
+					"point": "Designed and developed a management website utilizing spring MVC for general retail shops, to track and manage the details of stock brands, invoices, expenses, employees, customer details, and discounts using DBMS"
 				}
 			]
     },
@@ -22,10 +22,10 @@
         "title": "Breast Cancer Classification",
         "description": [
 				{
-					"point": "To detect breast cancer by using biopsy images provided by the standard dataset, used various feature extraction techniques on the available training set, resulting in an excellent 85 percent accuracy upon tuning hyperparameters, providing diagnosis for patients in real-time"
+					"point": "Inspired to detect breast cancer by leveraging biopsy images provided by the standard dataset, used various feature extraction techniques on the available training set, resulting in an 85\\% accuracy upon tuning hyperparameters, providing diagnosis for patients in real-time"
 				},
 				{
-					"point": "For accessibility, designed a Django web application to takes a biopsy image as input and return Malignant or Benign with our trained model"
+					"point": "Designed an accessible Django web application to take a biopsy image as input and return Malignant or Benign with deployed trained model"
 				}
                        ]
     }
