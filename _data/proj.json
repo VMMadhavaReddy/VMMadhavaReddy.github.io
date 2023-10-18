@@ -22,7 +22,7 @@
         "title": "Breast Cancer Classification",
         "description": [
 				{
-					"point": "Inspired to detect breast cancer by leveraging biopsy images provided by the standard dataset, used various feature extraction techniques on the available training set, resulting in an 85\\% accuracy upon tuning hyperparameters, providing diagnosis for patients in real-time"
+					"point": "Inspired to detect breast cancer by leveraging biopsy images provided by the standard dataset, used various feature extraction techniques on the available training set, resulting in an 85% accuracy upon tuning hyperparameters, providing diagnosis for patients in real-time"
 				},
 				{
 					"point": "Designed an accessible Django web application to take a biopsy image as input and return Malignant or Benign with deployed trained model"
