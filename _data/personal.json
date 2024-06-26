@@ -22,6 +22,9 @@
             },
             {
                 "language": "MySQL"
+            },
+            {
+                "language": "Bash"
             }
         ],
         "technologies": [
@@ -38,6 +41,9 @@
                 "technology": "Django"
             },
             {
+                "technology": "Flask"
+            },
+            {
                 "technology": "OpenCV"
             },
             {
@@ -45,9 +51,6 @@
             },
             {
                 "technology": "Maven"
-            },
-            {
-                "technology": "Pip"
             },
             {
                 "technology": "Linux"
@@ -60,6 +63,15 @@
             },
             {
                 "technology": "DBeaver"
+            },
+            {
+                "technology": "Docker"
+            },
+            {
+                "technology": "AWS"
+            },
+            {
+                "technology": "Redis"
             }
         ]
     }
