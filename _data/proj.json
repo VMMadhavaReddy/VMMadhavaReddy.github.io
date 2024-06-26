@@ -1,20 +1,15 @@
 [
     {
-        "title": "Overlapping Community Detection",
+        "title": "Cloud Computing Project",
         "description": [
 				{
-					"point": "Geared toward detecting communities in complex networks that are overlapping, like in any social media network, instead of yielding disjoint sets of communities typical of general algorithms"
+					"point": "Utilized my skills in managing various AWS IaaS resources and AWS Lambda to build a scalable and successful application, resulting in a robust and efficient cloud-based application"
 				},
 				{
-					"point": "Leveraged flow-based tolerance rough set theory to determine features of each node with a Multi-Objective Community detection fitness function for a novel overlapping community detection"
-				}
-			]
-    },
-    {
-        "title": "Supermarket Management",
-        "description": [
+					"point": "Leveraged my knowledge in multi-tiered cloud application development to create application with distinct App and Web tiers with auto-scaling functionality in the App tier code, allowing the application to dynamically scale on demand and seamless integration"
+				},
 				{
-					"point": "Designed and developed a management website utilizing spring MVC for general retail shops, to track and manage the details of stock brands, invoices, expenses, employees, customer details, and discounts using DBMS"
+					"point": "Applied my understanding of machine learning models to integrate a face recognition model, thereby enhancing the application’s functionality and user experience"
 				}
 			]
     },
