@@ -8,15 +8,15 @@
         "details": [
             {
                 "title":"",
-                "description": "Developed real-time operations functionality and API development involving warehouse management, expanding the system's overall scope and allowing for more comprehensive data and statistical analysis, cutting down on debugging costs by 30%"
+                "description": "Developed real-time operations functionality and API development involving warehouse management, expanding system's overall scope and allowing for more comprehensive data and statistical analysis, cutting down on debugging costs by 30%"
             },
             {
                 "title":"",
-                "description": "Investigated discrepancies in the underlying system through detailed RCAs; addressed core issues and streamlined operations, resulting in a 50% reduction in operational difficulties with a warehouse"
+                "description": "Orchestrated and led cross-functional team in conducting comprehensive Root Cause Analyses, addressing core issues and streamlining operations, resulting in a 50% reduction in warehouse operational difficulties"
             },
             {
                 "title":"",
-                "description": "Interacted with different teams to understand the precise scope of development from front-end to back-end and implemented it accordingly by guiding relevant teams to align with current development"
+                "description": "Guided different teams to understand precise scope of development from front-end to back-end and implemented it accordingly by guiding relevant teams to align with current development"
             },
             {
                 "title":"",
@@ -33,11 +33,15 @@
         "details": [
             {
                 "title": "",
-                "description": "Conducted dense captioning on videos with transformer-based models known for superior learning capabilities"
+                "description": "Pioneered implementation of state-of-the-art transformer-based models for dense video captioning, enhancing video content accessibility and search capabilities"
+            },
+            {
+              "title": "",
+                "description": "Produced high-quality captions from respective events in videos by employing a pre-trained bi-modal transformer model taking both audio and videos as features from sample videos for dense captioning in videos"
             },
             {
                 "title": "",
-                "description": "Produced high-quality captions from respective events in videos by employing a pre-trained bi-modal transformer model that takes both audio and videos as features from sample videos for dense captioning in videos"
+                "description": "Spearheaded implementation of advanced transformer-based models for dense video captioning, fostering collaboration between cross-functional teams and driving adoption of innovative video analysis technique"
             }
         ]
     }
