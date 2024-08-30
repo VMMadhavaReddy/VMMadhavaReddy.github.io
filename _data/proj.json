@@ -3,7 +3,7 @@
         "title": "Cloud Computing Project",
         "description": [
 				{
-					"point": "Architected scalable AWS application using IaaS resources and Lambda, increasing performance by 40% and reducing operational costs by 25%""
+					"point": "Architected scalable AWS application using IaaS resources and Lambda, increasing performance by 40% and reducing operational costs by 25%"
 				},
 				{
 					"point": "Developed multi-tiered cloud application with auto-scaling App tier, reducing response time by 60% and handling 3x traffic spikes without performance degradation"
