@@ -24,6 +24,9 @@
                 "language": "MySQL"
             },
             {
+                "language": "JavaScript"
+            },
+            {
                 "language": "Bash"
             }
         ],
@@ -42,6 +45,9 @@
             },
             {
                 "technology": "Flask"
+            },
+            {
+                "technology": "React"
             },
             {
                 "technology": "OpenCV"
